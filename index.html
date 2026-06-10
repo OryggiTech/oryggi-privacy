@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Oryggi IdentityXpert SSO</title>
+  <style>
+    body { font-family: -apple-system, Segoe UI, Arial, sans-serif; color: #1f2937; max-width: 760px; margin: 0 auto; padding: 32px 20px; line-height: 1.6; }
+    h1 { color: #111; border-bottom: 4px solid #F8E100; padding-bottom: 8px; }
+    h2 { color: #111; margin-top: 28px; }
+    code { background: #f3f4f6; padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
+    .muted { color: #6b7280; font-size: 0.9em; }
+    ul { padding-left: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy — Oryggi IdentityXpert SSO</h1>
+  <p class="muted">Last updated: June 2026 · Published by Oryggi Technologies Pvt Ltd</p>
+
+  <p>The <strong>Oryggi IdentityXpert SSO</strong> browser extension provides enterprise Single Sign-On:
+  it auto-fills login credentials for applications your organisation has registered, and enforces
+  multi-factor authentication (MFA), including biometric verification, before granting access. This
+  policy explains what the extension accesses and how that data is handled.</p>
+
+  <h2>What the extension accesses</h2>
+  <ul>
+    <li><strong>Page content on registered apps.</strong> The extension reads form fields on the
+      login pages of applications your administrator has registered with your Oryggi tenant, so it can
+      detect the sign-in form and fill the correct username/password. It does not read or transmit the
+      content of other websites.</li>
+    <li><strong>Your stored credentials.</strong> Credentials are stored encrypted in your
+      organisation's Oryggi tenant (server side). The extension requests them only after you pass the
+      required MFA, fills them into the login form on your device, and does not retain them.</li>
+    <li><strong>Biometric verification.</strong> Fingerprint, face and palm verification run on your
+      own device against templates your organisation enrolled. The extension relays a signed
+      match result; <strong>raw biometric data never leaves your device</strong> and is never sent to
+      Oryggi or any third party.</li>
+    <li><strong>Local configuration.</strong> The extension stores its API endpoint and your session
+      token in the browser's local extension storage so it can talk to your Oryggi tenant. This is
+      removed when the extension is uninstalled.</li>
+  </ul>
+
+  <h2>What we do NOT do</h2>
+  <ul>
+    <li>We do not sell, rent, or share your data with third parties.</li>
+    <li>We do not use your data for advertising or tracking.</li>
+    <li>We do not collect browsing history or activity on sites other than your registered apps.</li>
+    <li>We do not transmit raw biometric images or templates anywhere.</li>
+  </ul>
+
+  <h2>Data controller</h2>
+  <p>Your employer / organisation (the Oryggi tenant administrator) is the data controller for the
+  credentials and identity data processed through this extension. Oryggi Technologies Pvt Ltd acts as
+  the software provider / data processor on their behalf.</p>
+
+  <h2>Data security</h2>
+  <p>Credentials are encrypted at rest in the Oryggi tenant. All communication between the extension
+  and the Oryggi service uses HTTPS. Access is gated by your organisation's authentication and MFA
+  policies.</p>
+
+  <h2>Data retention &amp; removal</h2>
+  <p>Locally stored configuration and session data are removed when you uninstall the extension.
+  Credentials held in your Oryggi tenant are managed by your administrator and can be removed on
+  request through them.</p>
+
+  <h2>Contact</h2>
+  <p>For privacy questions, contact your organisation's Oryggi administrator, or
+  Oryggi Technologies Pvt Ltd at <a href="https://www.oryggi.com">www.oryggi.com</a>.</p>
+</body>
+</html>
